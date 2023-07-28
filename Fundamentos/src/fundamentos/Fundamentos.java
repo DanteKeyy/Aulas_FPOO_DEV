@@ -6,11 +6,13 @@ public class Fundamentos {
 
     
     public static void main(String[] args) {
-        //Declaração de variaveis
+        //Declaração de variaveis de tipos primitivos  
         String nome = "Murilo";
         int idade = 40;
         boolean estudando = true;
         double media = 9;
+        
+        String bairro = new String("Parque Orlanda III");
     }
     
 }
