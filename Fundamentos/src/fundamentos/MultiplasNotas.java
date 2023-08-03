@@ -11,6 +11,7 @@ public class MultiplasNotas {
         for (int i = 0; i < valores.length; i++) {
             int valor = valores[i];
             resultado += valor;
+
             
         }
         return resultado;
