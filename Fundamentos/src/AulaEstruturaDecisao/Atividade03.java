@@ -9,7 +9,7 @@ public class Atividade03 {
                 + "\n2. Arroz, feijao, file de frango "
                 + "\n3. Arroz, feijao, fricasse de frango"
                 + "\n4. Arroz, feijao, escondidinho de carne seca");
-        double prato = scanner.nextDouble();
+        int prato = scanner.nextInt();
         System.out.println("Escolha a quantidade de comida em gramas");
         double quantidade = scanner.nextDouble();
         
