@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Atividade9 {
 public static void main(String[] args) {
-        double rs = media(10,5,7,9,8);
-        System.out.println("A soma: "+ rs);
+        double resultado = media(10,5,7,9,8);
+        System.out.println("A media: "+ resultado);
     }
     
     public static int media(double ... valores) {
