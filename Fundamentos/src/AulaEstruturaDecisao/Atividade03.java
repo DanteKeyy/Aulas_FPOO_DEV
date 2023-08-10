@@ -10,25 +10,25 @@ public class Atividade03 {
                 + "\n3. Arroz, feijao, fricasse de frango"
                 + "\n4. Arroz, feijao, escondidinho de carne seca");
         int prato = scanner.nextInt();
-        System.out.println("Escolha a quantidade de comida em gramas");
+        System.out.println("Escolha a quantidade de pratos");
         double quantidade = scanner.nextDouble();
         
         if (prato == 1) {
-            double precoPG = 0.04;
-            double preco = quantidade*precoPG;
-            System.out.println("Preço total de seu almoço: "+preco);
+            double preco = 19.99;
+            double precoT = quantidade*preco;
+            System.out.println("Preço total de seu almoço: "+precoT);
         } else if (prato ==2) {
-            double precoPG = 0.03;
-            double preco = quantidade*precoPG;
-            System.out.println("Preço total do seu almoço: "+preco);
+            double preco = 18.99;
+            double precoT = quantidade*preco;
+            System.out.println("Preço total do seu almoço: "+precoT);
         } else if (prato ==3) {
-            double precoPG = 0.07;
-            double preco = quantidade*precoPG;
-            System.out.println("Preço total de seu almoço: "+preco);
+            double preco = 23.99;
+            double precoT = quantidade*preco;
+            System.out.println("Preço total de seu almoço: "+precoT);
         } else if (prato ==4) {
-            double precoPG = 0.08;
-            double preco = quantidade*precoPG;
-            System.out.println("Preço total de seu almoço: "+preco);
+            double preco = 25;
+            double precoT = quantidade*preco;
+            System.out.println("Preço total de seu almoço: "+precoT);
         } else {
             System.out.println("Insira um valor valido.");
         }
