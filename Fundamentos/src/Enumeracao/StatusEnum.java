@@ -7,12 +7,12 @@ public enum StatusEnum {
     EM_TRANSPORTE("Em transporte"),
     ENTREGUE("Entregue ao cliente");
     
-    private String stauts;
+    private String status;
     
     private StatusEnum(String status) {
-        this.stauts = status;
+        this.status = status;
     }
     public String getStatus() {
-        return this.stauts;
+        return this.status;
 }
 }

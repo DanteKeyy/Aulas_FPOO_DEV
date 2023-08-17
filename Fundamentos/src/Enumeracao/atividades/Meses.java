@@ -10,19 +10,19 @@ package Enumeracao.atividades;
  */
 public class Meses {
     private int numeroMes;
-    private MesesEnum mes;
+    private String mes;
 
     public void setNumeroMes(int numeroMes) {
         this.numeroMes = numeroMes;
     }
 
-    public void setMes(MesesEnum mes) {
+    public void setMes(String mes) {
         this.mes = mes;
     }
     
     
 
-    public Meses(MesesEnum mes, int numeroMes) {
+    public Meses(String mes, int numeroMes) {
         this.mes = mes;
         this.numeroMes = numeroMes;
     }

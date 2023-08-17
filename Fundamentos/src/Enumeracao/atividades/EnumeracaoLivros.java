@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Enumeracao.atividades;
 
-/**
- *
- * @author Aluno
- */
 public class EnumeracaoLivros {
     public static void main(String[] args) {
     Livros livros = new Livros(EnumLivros.romance);
@@ -19,11 +11,5 @@ public class EnumeracaoLivros {
         livros.setGenero(EnumLivros.drama);
         System.out.println(livros);
         livros.setGenero(EnumLivros.Aventura);
-        System.out.println(livros);
-        
-    
-    
-    
-    }
-   
+        System.out.println(livros);}
 }

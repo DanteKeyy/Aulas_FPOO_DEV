@@ -6,7 +6,7 @@ public class Atividade9 {
 public static void main(String[] args) {
         double resultado = media(10,5,7,9,8);
         System.out.println("A media: "+ resultado);
-        System.out.println("A soma: "+ rs);
+        System.out.println("A soma: "+ (10+5+7+9+8));
     }
     
     public static int media(double ... valores) {

@@ -9,16 +9,24 @@ package Enumeracao.atividades;
  * @author Aluno
  */
 public enum MesesEnum {
-    Janeiro,
-    Fevereiro,
-    Marco ,
-    Abril,
-    Maio,
-    Junho,
-    Julho,
-    Agosto,
-    Setembro,
-    Outubro,
-    Novembro,
-    Dezembro
+    Janeiro ("Janeiro"),
+    Fevereiro ("Fevereiro"),
+    Marco ("Março"),
+    Abril ("Abril"),
+    Maio ("Maio"),
+    Junho ("Junho"),
+    Julho ("Julho"),
+    Agosto ("Agosto"),
+    Setembro ("Setembro"),
+    Outubro ("Outubro"),
+    Novembro ("Novembro"),
+    Dezembro ("Dezembro");
+    
+        private String meses;
+    private MesesEnum (String meses) {
+        this.meses = meses;
+    }
+    public String getMeses() {
+        return this.meses;
+   }
 }
