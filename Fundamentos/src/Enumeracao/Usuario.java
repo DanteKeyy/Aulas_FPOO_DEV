@@ -12,9 +12,9 @@ public class Usuario {
     private String nome;
     private String email;
     private boolean ativo;
-    private Tiposuarionum tipo; 
+    private TiposuarioEnum tipo; 
 
-    public Usuario(String nome, String email, boolean ativo, Tiposuarionum tipo) {
+    public Usuario(String nome, String email, boolean ativo, TiposuarioEnum tipo) {
         this.nome = nome;
         this.email = email;
         this.ativo = ativo;

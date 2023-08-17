@@ -11,7 +11,7 @@ package Enumeracao;
 public class Enumeracao {
 
     public static void main(String[] args) {
-        Usuario usuario = new Usuario("Usuario 01", "usuario01@gmail.com", true, Tiposuarionum.TECNICO);
+        Usuario usuario = new Usuario("Usuario 01", "usuario01@gmail.com", true, TiposuarioEnum.TECNICO);
         System.out.println(usuario);
         Pedido pedido = new Pedido(
                 "Pedido do Usuario 01!",

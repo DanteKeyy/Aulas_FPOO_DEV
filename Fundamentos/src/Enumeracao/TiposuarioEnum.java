@@ -10,7 +10,7 @@ import javax.swing.plaf.metal.MetalIconFactory;
  *
  * @author Aluno
  */
-public enum Tiposuarionum {
+public enum TiposuarioEnum {
     COMUM, TECNICO, ADIMINISTRADOR
     
 }
