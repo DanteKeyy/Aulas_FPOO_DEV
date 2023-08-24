@@ -10,7 +10,7 @@ package classes;
  */
 public enum marchaEnum {
    PRIMEIRA_MARCHA("Primeira Marcha", 1),
-   SEGUNDA_MARCHA("Segunda Marcha", 2),
+   SEGUNDA_MARCHA("Segunda Marcha", 2   ),
    TERCEIRA_MARCHA("Terceira Marcha", 3),
    QUARTA_MARCHA("Quarta Marcha", 4),
    QUINTA_MARCHA("Quinta Marcha", 5),
