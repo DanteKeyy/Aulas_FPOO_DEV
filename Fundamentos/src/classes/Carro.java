@@ -13,14 +13,15 @@ public class Carro {
 private int rodas;
 private String marca;
 private String modelo;
-private String cor;
+private corEnum cor;
 private int ndePortas;
 private int velocidade;
 private String status;
+private int marcha;
 
 //Construtor 
 
-    public Carro(int rodas, String marca, String modelo, String cor, int ndePortas, int velocidade, String status) {
+    public Carro(int rodas, String marca, String modelo, corEnum cor, int ndePortas, int velocidade, String status, int marcha) {
         this.rodas = rodas;
         this.marca = marca;
         this.modelo = modelo;
@@ -28,12 +29,24 @@ private String status;
         this.ndePortas = ndePortas;
         this.velocidade = velocidade;
         this.status = status;
+        this.marcha = marcha;
     }
 
   
 
     
     //Metodos
+    
+    public void trocarDeMarcha(marchaEnum novaMarcha) {
+        int diferenca = novaMarcha.getNumeroMarcha();
+        
+        if (diferenca ==1) {
+            this.marcha = novaMarcha.getNumeroMarcha();
+        } else {
+            System.out.println("Voce não pode pular a marcha");
+        }
+       
+    }
     
     public void andar() {
         System.out.println("Carro em movimento");
@@ -49,7 +62,7 @@ private String status;
 
     @Override
     public String toString() {
-        return "Carro{" + "rodas=" + rodas + ", marca=" + marca + ", modelo=" + modelo + ", cor=" + cor + ", ndePortas=" + ndePortas + ", velocidade=" + velocidade + ", status=" + status + '}';
+        return "Carro{" + "rodas=" + rodas + ", marca=" + marca + ", modelo=" + modelo + ", cor=" + cor + ", ndePortas=" + ndePortas + ", velocidade=" + velocidade + ", status=" + status + ", marcha=" + marcha + '}';
     }
     
 
