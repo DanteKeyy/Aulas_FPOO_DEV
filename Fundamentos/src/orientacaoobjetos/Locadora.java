@@ -19,5 +19,6 @@ public class Locadora {
        System.out.println("O valor para a locação do filme simples é: "+ valorLocacaoLancamento);
         c2.validarnome(c2.getNome());
         c2.verificarEmailDominioGoogle(c2.getEmail());
+  
     }
 }
