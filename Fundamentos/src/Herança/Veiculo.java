@@ -1,4 +1,4 @@
-package Concessionária;
+package Herança;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

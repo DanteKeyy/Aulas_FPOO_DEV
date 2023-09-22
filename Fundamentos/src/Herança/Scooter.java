@@ -1,4 +1,4 @@
-package Concessionária;
+package Herança;
 
 
 public class Scooter extends Veiculo{

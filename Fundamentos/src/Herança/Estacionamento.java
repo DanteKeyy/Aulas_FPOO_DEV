@@ -1,5 +1,5 @@
 
-package Concessionária;
+package Herança;
 
 import Enumeracao.TiposuarioEnum;
 import java.util.Scanner;
